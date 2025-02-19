@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 :root {
     --cor-icone-instagram: #963ceb; /* Cor do ícone do Instagram */
     --cor-icone-github: #c5b8b8; /* Cor do ícone do GitHub */
@@ -26,13 +28,14 @@
     color: var(--cor-icone-whatsapp);
 }
         body {
-            font-family: Arial, sans-serif;
-            background-image: url('https://www.shutterstock.com/shutterstock/videos/1054487345/thumb/6.jpg?ip=x480'); 
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url('https://i.pinimg.com/736x/3c/fe/89/3cfe89b75fa383c7e9ae5a52efb975cb.jpg'); /* https://www.shutterstock.com/shutterstock/videos/1054487345/thumb/6.jpg?ip=x480     */
             background-size: cover; /* Adicionado */
             background-repeat: no-repeat; /* Adicionado */
             color: #ffffff; /* Texto branco */
             margin: 0; /* Remove a margem padrão do body */
             padding: 20px; /* Adiciona um pouco de padding */
+            background-position: center;
         }
 
         header {
@@ -42,7 +45,7 @@
         }
 
         h1 {
-            color: #1d60c5; /* Cor do título */
+            color: #411fda; /* Cor do título */
         }
 
         nav ul {
@@ -103,7 +106,7 @@
         }
 
         footer {
-            margin-top: 20px; /* Espaço acima do rodapé */
+            margin-top: 100px; /* Espaço acima do rodapé */
             text-align: center; /* Centraliza o texto do rodapé */
         }
 
@@ -119,14 +122,38 @@
         /*    color: #E1306C; /* Cor dos ícones sociais */
         /*    font-size: 24px; /* Tamanho dos ícones */
         a {
-            color: blue; /* Cor padrão do link */
+            color: #0000ff; /* Cor padrão do link */
             text-decoration: none; /* Remove o sublinhado */
         }
         
         a:hover {
-            color: red; /* Cor quando o mouse passar sobre o link */
+            color: rgb(204, 0, 255); /* Cor quando o mouse passar sobre o link */
         }
         
-        a:visited {
-            color: purple; /* Cor do link após ser visitado */
+        header {
+            background-color: #836cd31f;  /* Cor de fundo */
+            color: #ffffff;               /* Cor do texto */
+            padding: 20px;              /* Espaçamento interno */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras para dar profundidade */
+            border-radius: 8px;         /* Bordas arredondadas */
+            margin: 20px auto;          /* Espaçamento externo e centralizado */
+            max-width: 3000px;          /* Largura máxima */
+            text-align: center;         /* Centraliza o conteúdo */
         }
+        
+        button{
+            font-family: 'Courier New', Courier, monospace;
+            font-size:30px;
+            border: transparent;
+            background-color: transparent;
+            color: #eeeeee
+        }
+
+        button:hover{           /* responsavel por mudar a cor quando passar o mouse em cimda do botao*/                   
+            background-color: #411fda 
+        }
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 27px;
+        }
+
