@@ -4,10 +4,10 @@
     <link rel="stylesheet" href="login.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de login</title>
-
+    <title>Página de Login</title>
 </head>
 <body>
+    <!-- Estrelas no fundo -->
     <div class="estrela" style="left: 20%; animation-duration: 3s;"></div>
     <div class="estrela" style="left: 40%; animation-duration: 2s;"></div>
     <div class="estrela" style="left: 60%; animation-duration: 2.5s;"></div>
@@ -24,25 +24,28 @@
     <div class="estrela" style="left: 75%; animation-duration: 2.4s;"></div>
     <div class="estrela" style="left: 65%; animation-duration: 2.8s;"></div>
 
+    <!-- Container do login -->
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
 
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" id="searchInput" placeholder="Username">
+            </div>
 
-    
-    <div  class='wrapper'>
-    <form action="">
-        <h1>Login</h1>
-        <i class="input-box"></i>
-        <div class="search-container">
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" class="search-input" id="searchInput" placeholder="Username">
-        </div>
-        <div  class='wrapper'>
-            <form action="">
-                <div class="search-container">
-                    <i class="fas fa-search search-icon"></i>
-                    <input type="text" class="search-input" id="searchInput" placeholder="Password">
-                </div>
-    <button onclick="redirecionar()">Esqueceu a senha?</button>
-        
-    
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="password" class="search-input" id="passwordInput" placeholder="Password">
+            </div>
+
+            <!-- Container para os botões -->
+            <div class="button-container">
+                <button type="button" onclick="redirecionar()">Esqueceu a senha?</button>
+                <button type="button" onclick="login()">Login</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
