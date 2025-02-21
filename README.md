@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataMind Analytics</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </style>  
-    </div>
     <script>
         function redirecionar() { 
             window.location.href = "";  <!--colocar link nas apas""-->
         }
     </script>
-    </head> 
-        <meta name="description" content="DataMind Analytics,oferece soluções em inteligência artificial e suporte especializado para servidores. Automatize processos, otimize a performance e garanta a segurança do seu negócio com nossos serviços personalizados de IA e manutenção de servidores.">
-        <meta neme="keywords" content="IA, inteligência artificial, inteligência, artificial, servidores"> <!--keywords usada para definir palavras chaves paea achar o site -->
+</head> 
+    <meta name="description" content="DataMind Analytics, oferece soluções em inteligência artificial e suporte especializado para servidores. Automatize processos, otimize a performance e garanta a segurança do seu negócio com nossos serviços personalizados de IA e manutenção de servidores.">
+    <meta name="keywords" content="IA, inteligência artificial, inteligência, artificial, servidores">
 <nav>
   
 <body>
@@ -26,9 +24,9 @@
         <nav>
             <ul>
                 <li><a href="#home"><i class="fa-solid fa-house"></i> Início</a></li>
-                <li><a href="#sobre"></a></li><i class="fa-solid fa-star"></i>  sobre</a></li></i>
-                <li><a href="#servicos"></a></li><i class="fa-solid fa-check"></i>Serviços</a></li></i>
-                <li><a href="#contato"></a></li><i class="fa-solid fa-phone"></i> contato</a></li></i>
+                <li><a href="#sobre"><i class="fa-solid fa-star"></i> Sobre</a></li>
+                <li><a href="#Produtos"><i class="fa-solid fa-check"></i> Produtos</a></li>
+                <li><a href="#contato"><i class="fa-solid fa-phone"></i> Contato</a></li>
             </ul>
         </nav>
         <div class="login-container"> <!--botao de login-->
@@ -38,34 +36,30 @@
         </div>
     </header>
 
+    <!-- Logo girando no centro -->
+    <div class="logo-container"></div> <!-- Adicionada a logo com animação -->
+
     <div class="search-container">
         <i class="fas fa-search search-icon"></i>
         <input type="text" class="search-input" id="searchInput" placeholder="Pesquisar...">
     </div>
 
     <main>
-        <section id="home"> <!--botao de inicio -->
+        <section id="home">
             <h2>  </h2>
             <p></p>
             <button onclick="redirecionar()">Início</button>
         </section>
 
-        <section id="sobre"> <!--botao de informacoes sobre o site-->
+        <section id="sobre">
             <h2>   </h2>
             <button onclick="redirecionar()">Sobre</button>
             <p>  </p>
-           
         </section>
 
-        <section id="servicos"> <!--botao de lista de servicos-->
+        <section id="servicos">
             <h2>   </h2>
-            <button onclick="redirecionar()">Serviços</button> 
-            <!--<p>Serviços oferecidos<br>
-                Desenvolvimento de IA <br>
-                Manutenção de servidores <br>
-                Manutenção de IA <br>
-            </p>-->
-
+            <button onclick="redirecionar()">Serviços</button>
         </section>
 
         <section id="contato">
@@ -85,7 +79,7 @@
     </main>
 
     <footer>
-        <p>&reg; 2025 DataMind
+        <p>&reg; 2025 DataMind</p>
     </footer>
 </body>
 </html>
